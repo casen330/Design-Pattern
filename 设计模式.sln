@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "简单工厂模式", "设计模式\设计模式.vcxproj", "{E1ED5110-B564-4340-AACE-28748F07BFE3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "工厂模式", "工厂模式\工厂模式.vcxproj", "{C5BBBCEB-1F1B-450F-808C-8FF84D3BA096}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "抽象工厂模式", "抽象工厂模式\抽象工厂模式.vcxproj", "{CE80CD32-24CA-4F3A-88B2-E8057331E91D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "建造者模式", "建造者模式\建造者模式.vcxproj", "{44064EE4-DB43-4B86-97EC-0DB8462183F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1ED5110-B564-4340-AACE-28748F07BFE3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E1ED5110-B564-4340-AACE-28748F07BFE3}.Debug|Win32.Build.0 = Debug|Win32
+		{E1ED5110-B564-4340-AACE-28748F07BFE3}.Release|Win32.ActiveCfg = Release|Win32
+		{E1ED5110-B564-4340-AACE-28748F07BFE3}.Release|Win32.Build.0 = Release|Win32
+		{C5BBBCEB-1F1B-450F-808C-8FF84D3BA096}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C5BBBCEB-1F1B-450F-808C-8FF84D3BA096}.Debug|Win32.Build.0 = Debug|Win32
+		{C5BBBCEB-1F1B-450F-808C-8FF84D3BA096}.Release|Win32.ActiveCfg = Release|Win32
+		{C5BBBCEB-1F1B-450F-808C-8FF84D3BA096}.Release|Win32.Build.0 = Release|Win32
+		{CE80CD32-24CA-4F3A-88B2-E8057331E91D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CE80CD32-24CA-4F3A-88B2-E8057331E91D}.Debug|Win32.Build.0 = Debug|Win32
+		{CE80CD32-24CA-4F3A-88B2-E8057331E91D}.Release|Win32.ActiveCfg = Release|Win32
+		{CE80CD32-24CA-4F3A-88B2-E8057331E91D}.Release|Win32.Build.0 = Release|Win32
+		{44064EE4-DB43-4B86-97EC-0DB8462183F7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{44064EE4-DB43-4B86-97EC-0DB8462183F7}.Debug|Win32.Build.0 = Debug|Win32
+		{44064EE4-DB43-4B86-97EC-0DB8462183F7}.Release|Win32.ActiveCfg = Release|Win32
+		{44064EE4-DB43-4B86-97EC-0DB8462183F7}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
