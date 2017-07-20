@@ -85,7 +85,8 @@ int main(){
 	FlyWeightFactory *fwtf = new FlyWeightFactory;
 	p1 = fwtf->GetTeacher("001");
 	p1->printT();
-
+	//重新操作001
+	cout << "again 001" << endl;
 	p2 = fwtf->GetTeacher("001"); //查找001，找到后，则直接返回map里面的second
 	p2->printT();
 

@@ -27,7 +27,7 @@ public:
 	virtual int remove(IFile *ifile){
 		return -1;
 	}
-	virtual list<IFile*> *getChild(){
+	list<IFile*> *getChild(){
 		return NULL;
 	}
 private:
@@ -53,7 +53,7 @@ public:
 		m_list->remove(ifile);
 		return 0;
 	}
-	virtual list<IFile*> *getChild(){
+	list<IFile*> *getChild(){
 		return m_list;
 	}
 private:

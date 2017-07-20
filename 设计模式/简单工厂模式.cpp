@@ -23,7 +23,7 @@ public:
 		cout << "Apple" << endl;
 	}
 };
-
+//工厂
 class Factory
 {
 public:
@@ -48,6 +48,7 @@ void main(){
 	Fruit *fruit = NULL; //产生一个指向子类对象的父类指针或引用
 	fruit = f->create("Banana");
 	fruit->getFruit();
+
 	delete fruit;
 	
 	fruit = f->create("Apple");
